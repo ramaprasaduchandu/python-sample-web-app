@@ -3,14 +3,10 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-<<<<<<< HEAD
       python: 3.8
   pre_build:
     commands:
       - pip install -r requirements.txt
-=======
-      python: 3.11
->>>>>>> 8f3546803557bf7272896d435cd0c5f4083081de
   build:
     commands:
       - echo Build started on `date`
